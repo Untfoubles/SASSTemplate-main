@@ -1,0 +1,13 @@
+// hier je overrides van bootstrap-variablen
+$primary: green;
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+// hier je custom sass
+a {
+    color: blue;
+    &:hover { // Fixed typo
+        color: green;
+    }
+}
+div{width:100%;}
